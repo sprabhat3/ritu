@@ -110,13 +110,7 @@
     <button class="btn" onclick="showMore()">🎁 Click for a Surprise</button>
   </div>
 
-  <?php
-    for ($i = 0; $i < 30; $i++) {
-      $left = rand(0, 100);
-      $delay = rand(0, 20);
-      echo "<div class='balloon' style='left: {$left}%; animation-delay: {$delay}s; background: hsl(" . rand(330, 360) . ", 100%, 85%);'></div>";
-    }
-  ?>
+
 
   <script>
     const message = `Aaj ka din hai tumhaare naam, 🧸
